@@ -1,0 +1,185 @@
+/* --------------------------------------------------------------General Styling------------------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: 'latoregular';
+	font-size:12px;
+
+}
+
+ol, ul {list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	outline:none;
+}
+
+body { background:#fff; line-height: 1.42857143;}
+img { max-width: 100%;}
+
+/* --------------------------------------------------------------General Styling Ends----------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Index Page Starts------------------------------------------------------------------------- */
+
+.Main { height:auto; display:block; width: 100%; padding:0; margin:0;}
+.Full { max-width: 1634px; display:block; height:auto; margin:0 auto;}
+.container { max-width:1170px;}
+.top-header { height:auto; width:100%; padding: 15px 0; background: #f7f7f7; opacity:1}
+.top-link { width: 100%; text-align:right;}
+.logo { text-align:center; }
+
+
+/* --------------------------------------------------------------Navigation Start------------------------------------------------------------------------- */
+
+#header { z-index:999;}
+.navigation { padding: 0;}
+.navigation .nav { float:right;}
+.navigation .nav li { margin-right: 40px;}
+.navigation .nav li:last-child { margin:0;}
+.navigation .nav li a { font-size:14px; color:#858585; padding:  15px 20px; float: right; font-weight:600; text-transform: uppercase; }
+.navigation .nav li a:hover { background:#45c8af; color:#fff;}
+.navigation .nav li.dropdown a {font-size:16px; color:#444; padding: 0px 8px; float: right;}
+.navigation .nav li:last-child a { }
+.navigation .nav > li + li:before {}
+
+/* --------------------------------------------------------------Navigation End------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Slider Starts------------------------------------------------------------------------- */
+
+.carousel-caption h3 { margin: 0 0 5px 0; font-size: 40px; color:#6ad3bf; padding: 7px 15px; background:rgba(0,0,0,0.4); text-transform:uppercase; display:inline-block; text-align:center; text-shadow: 0px 1px rgba(255, 255, 255, 0.5);}
+.carousel-caption p { margin:0 0 2px 0; font-size: 26px; color:#fff; padding:0; display:inline-block; line-height: 30px; text-shadow: 0px 1px rgba(0, 0, 0, 0.5);}
+.carousel-caption p.caption1 { margin:5px 0 0 0}
+.carousel-control { width: auto !important; opacity: 1 !important;}
+.carousel-control.left { background: none !important; left:auto !important; right: 12%;}
+.carousel-control.right { background: none !important; right: 5% !important;}
+.carousel-control .indicators { background: #fff; padding: 10px 0; height: 40px ; width: 40px;}
+.left.carousel-control .indicators { left:0; top: auto; position:absolute; bottom:0}
+.right.carousel-control .indicators { right:0; top: auto; position:absolute; bottom:0}
+.btn-slider { position:absolute; left:0; top: 230px;}
+.btn-slider a { background: #e74c3c; padding: 5px 25px; color:#fff; display:inline-block; font-size: 24px; text-shadow: none;}
+.btn-slider a:hover { color: #6ad3bf;}
+.btn-slider a:focus {color: #6ad3bf; text-decoration:none; outline:none;}
+
+/* --------------------------------------------------------------Slider Ends------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------About-Section Starts--------------------------------------------------------------------- */
+.about-content { background: url(../img/about-bg.png) center center no-repeat; clear:both; height: auto; padding: 40px 0;}
+.about-content h3 { font-size: 42px; color:#fff; margin: 10px 0; font-weight: 600;}
+.about-content p { font-size: 20px; color:#d7d7d7; margin: 0 0 10px; }
+.about-content a.view-more { background: none; border: 1px solid #ffffff; padding: 5px 15px; display: inline-block; border-radius: 5px 5px 5px 5px ; font-size:18px; color:#fefefe; }
+.about-content a.view-more:hover { background: #6ad3bf;}
+
+/* -------------------------------------------------------------About-Section Ends--------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------Speciality-container-Starts--------------------------------------------------------------------- */
+
+.spcl-cont { background: #fff; padding: 50px 0; text-align:center;}
+.spcl-cont .box-1 { width: 100%; text-align:center;}
+.box-1 .top-imgs { width: 100%; text-align:center}
+.box-1 .top-imgs img { transition: all 0.5s ease 0s; margin: 0 auto}
+.box-1 .top-imgs .img-hover { display: none;}
+.box-1 .top-imgs .img-main {}
+.box-1 .top-imgs:hover .img-hover { display:block;}
+.box-1 .top-imgs:hover .img-main { display:none;}
+.spcl-cont .box-1 h3 { font-size: 16px; color:#403f44; font-weight:normal; margin: 10px 0 0 0}
+.spcl-cont .box-1 p { font-size: 14px; color:#403f44; font-weight: 100; margin: 15px  0;}
+.spcl-cont .box-1 a { display: inline-block; padding: 5px 15px ; border: 1px solid #45c8af; border-radius: 5px 5px 5px 5px ; color:#444444; font-size: 14px;}
+.spcl-cont .box-1 a:hover { background: #e74c3c; border: 1px solid #e74c3c; color:#fff;}
+
+
+/* ------------------------------------------------------Speciality-container-Ends--------------------------------------------------------------------- */
+
+/* ------------------------------------------------------Featured-Portfolio-Start--------------------------------------------------------------------- */
+
+.featured-portfolio { background: url(../img/portfolio-bg.png) center center no-repeat; clear:both; padding: 39px 0;}
+.portfolio-imgs { background: url(../img/porfolio-img-bg.png) center center no-repeat; padding: 37px 0;}
+.port-main-img { width: 100%; overflow:hidden; position:relative; text-align:center;}
+.port-main-img a { display:inline-block; width: 100%;}
+.port-main-img a img { position: relative;}
+.hover-cont { position:absolute; background: url(../img/zoom-icon.png) no-repeat center center #444 ; width: 100%; height:100%; opacity:0; left:0; top:0; right:0; margin: 0 auto;}
+.port-main-img:hover a .hover-cont { opacity: 0.8}
+.port-dtails { background: #f3f5f5; padding: 8px 20px;}
+.port-dtails h6 { font-size: 14px; color:#666; font-weight: 600; margin: 0 0 5px 0;}
+.port-dtails p { color:#45c8af; margin:0;}
+
+/* ------------------------------------------------------Featured-Portfolio-Ends--------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------Meet-the-team-Starts--------------------------------------------------------------------- */
+
+.meet-team { background: url(../img/team-bg.png) no-repeat center center ; clear:both; padding: 90px 0;}
+.team-sectn { background:#f1f7f7; padding: 20px 0; text-align:center}
+.team-sectn .img-container { border: 27px solid #d8d8d8; text-align:center; padding: 20px 0; border-radius: 100% 100% 100% 100%; position:relative;}
+.team-hover { position:absolute; background: #181c20; width: 100%; height:100%; opacity:0; left:0; top:0; border-radius: 100%; padding: 25px;}
+.team-hover .team-s-icons { width: 100%; clear:both; overflow:hidden;}
+.team-s-icons a { display: inline-block;}
+.img-left { float: left;}
+.img-ryt { float: right;}
+.team-hover p { clear:both; font-size: 14px; color:#ffffff; margin:10px 0 0}
+.img-container:hover .team-hover { opacity: .8;}
+
+
+/* ------------------------------------------------------Meet-the-team-Ends--------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Footer Starts----------------------------------------------------------------------- */
+
+.footer-sectn { padding: 14px 0; background: url(../img/contact-bg.png) center center no-repeat; clear:both; position:relative;}
+.backtotop { position: absolute; right: 15px; bottom: 35px; z-index: 999;}
+.backtotop a { display: inline-block; z-index: 999;}
+.footer-sectn .f-sect-head { font-size: 18px; color:#fff; margin: 0 0 30px 0; font-weight: 600;}
+.f-map { height: 230px;}
+.f-content-sect {}
+.f-content-sect ul li {margin: 0 0 5px;}
+.f-content-sect ul li span { display: inline-block; vertical-align:top; position:relative; top: 3px;}
+.f-content-sect ul li p {  color: #f6f6f6; display: inline-block; font-size: 16px; margin-left: 20px; vertical-align:top; font-weight: 600}
+.f-content-sect ul li p span { margin: 0 0 0 5px; font-size: 14px; font-weight: 100; color:#d3d3d3;}
+.f-content-sect ul li a { color:#45c8af; font-size: 14px; font-weight: 100;}
+.f-content-sect .inpt-box { width: 45%; display: inline-block; vertical-align:top; padding: 10px 5px 10px 40px; color:#979797; border:1px solid #2c2c2c;}
+.f-content-sect .inpt-name {  background: url(../img/user-icon.png) 8px center no-repeat #2c2c2c; margin:0 30px 0 0}
+.f-content-sect .inpt-mail {  background: url(../img/email-icon.png) 8px center no-repeat #2c2c2c; }
+.f-content-sect .txt-area {width: 100%; padding: 10px 5px 10px 40px; color:#979797; border:1px solid #2c2c2c; background: url(../img/edit-icon.png) 8px 10px no-repeat #2c2c2c; height: 130px; margin: 30px 0;}
+.f-content-sect .inpt-box:focus { background-color: #fff; border: 1px solid #45c8af; color:#777;}
+.f-content-sect .txt-area:focus { background-color: #fff; border: 1px solid #45c8af; color:#777}
+.f-content-sect .btn-submit { background:none; box-shadow: none; border: 1px solid #ffffff; border-radius: 5px 5px 5px 5px; padding: 8px 25px; color:#a4a4a4; font-size: 14px;}
+.f-content-sect .btn-submit:hover { background:#45c8af; color:#fff;}
+
+/* --------------------------------------------------------------Footer Ends----------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------Copyright Section Starts----------------------------------------------------------------- */
+
+.copyright-sect {  border-top: 1px solid #a7a7a7; margin: 30px 0 0; padding: 25px 0;}
+.copyright-sect p { text-align:left; color:#fff; font-size: 16px; margin:0;}
+.copyright-sect .s-icons-footer  { text-align:right;}
+.copyright-sect .s-icons-footer ul { text-align:right;}
+.copyright-sect .s-icons-footer ul li { display: inline-block; vertical-align:top; margin-right: 30px;}
+.copyright-sect .s-icons-footer ul li:last-child { margin-right: 0;}
+.s-icons-footer ul li .social-imgs { height: 20px;}
+.s-icons-footer ul li .social-imgs img { transition: all 0.5s ease 0s; height: 20px; }
+.s-icons-footer ul li .social-imgs .img-hover { display: none;}
+.s-icons-footer ul li:hover .social-imgs .img-hover { display:block;}
+.s-icons-footer ul li:hover .social-imgs .img-main { display:none;}
+
+/* --------------------------------------------------------------Copyright Section Ends----------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Index Page Ends------------------------------------------------------------------------- */

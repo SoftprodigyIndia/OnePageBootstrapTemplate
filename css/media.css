@@ -1,0 +1,435 @@
+
+/*-- Media Screen Style Sheet  -- */
+
+@media (max-width: 1280px) {
+	
+
+.navigation .nav li { margin-right: 35px;}
+.navigation .nav li a { padding: 15px;}
+.carousel-caption { left:13%; top:84px; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:20px; padding: 0 5px; margin:10px 0 0;}
+.carousel-caption p.caption1 { margin:11px 0 0;}
+.carousel-caption h3 { margin: 3px 0; font-size:48px; text-shadow:none; padding: 0 10px;}
+.btn-slider a { font-size: 24px; padding: 10px 25px;}
+.btn-slider { left:0; top:63%;}
+.p-detail h3 { font-size: 18px;}
+.box-yellow { padding: 20px 30px 10px;}
+.box-yellow p { font-size: 20px; margin:57px 0 0;}
+.p-detail1 { padding: 16px 20px;}
+.w-design-sect .box-yellow p { margin: 65px 0 0;}
+.w-graphic-sect .box-yellow p { margin: 43px 0 0;}
+.folow-sect ul.social-icons li { margin-left: 3px;}
+.media, .media-body { overflow:visible;}
+.mem-post p { font-size: 14px;}
+.top-btn-main a { font-size: 26px;}
+	
+
+	}
+
+@media (max-width: 1200px) {
+	
+
+.navigation .nav li { margin-right: 35px;}
+.navigation .nav li a { padding: 15px;}
+.carousel-caption { left:11%; top:55px; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:18px; padding: 0 5px; margin:5px 0 0;}
+.carousel-caption p.caption1 { margin:6px 0 0;}
+.carousel-caption h3 { margin: 3px 0; font-size:44px; text-shadow:none; padding: 0 10px;}
+.btn-slider a { font-size: 22px; padding: 10px 25px;}
+.btn-slider { left:0; top:65%;}
+.p-detail h3 { font-size: 18px;}
+.box-yellow { padding: 20px 30px 10px;}
+.box-yellow p { font-size: 16px; margin:20px 0 0;}
+.p-detail1 { padding: 16px 20px;}
+.w-design-sect .box-yellow p { margin: 29px 0 0;}
+.w-graphic-sect .box-yellow p { margin: 8px 0 0;}
+.folow-sect ul.social-icons li { margin-left: 3px;}
+.media, .media-body { overflow:visible;}
+.mem-post p { font-size: 14px;}
+.top-btn-main a { font-size: 26px;}
+	
+
+	}
+
+@media (max-width: 1024px) {
+	
+
+.navigation .nav li { margin-right: 35px;}
+.navigation .nav li a { padding: 15px;}
+.carousel-caption { left:9%; top:53px; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:18px; padding: 0 5px; margin:2px 0 0;}
+.carousel-caption p.caption1 { margin:6px 0 0;}
+.carousel-caption h3 { margin: 3px 0; font-size:36px; text-shadow:none; padding: 0 10px;}
+.carousel-control.left { right: 14%;}
+.btn-slider a { font-size: 16px; padding: 10px 25px;}
+.btn-slider { left:0; top:62%;}
+
+.team-sectn .img-container { border: 20px solid #d8d8d8;}
+.img-container > img { max-width: 70%;}
+.img-left > img, .img-ryt > img { max-width: 80%;}
+.team-hover p { font-size: 12px;}
+.footer-sectn { background-size: cover;}
+
+.f-content-sect .inpt-box { margin: 10px 0 0;width: 100%;}
+.f-content-sect .txt-area { margin: 10px 0;}
+
+@media (min-width: 768px) and (max-width:1002px) {
+	
+.navigation .nav li a {font-size: 12px; padding: 10px;}
+.navigation .nav li { margin-right: 20px}
+.carousel-caption { left:9%; top:34px; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:18px; padding: 0 5px; margin:2px 0 0;}
+.carousel-caption p.caption1 { margin:6px 0 0;}
+.carousel-caption h3 { margin: 3px 0; font-size:28px; text-shadow:none; padding: 0 10px;}
+.btn-slider a { font-size: 14px; padding: 10px 12px;}
+.btn-slider { left:0; top:77%;}
+.carousel-indicators { bottom: auto; top: 94%;}
+.carousel-indicators li { height: 15px; width: 15px;}
+.carousel-control.left { right: 14%;}
+.carousel-control .indicators { padding: 5px 0; height: 35px; width: 35px;}
+
+.carousel-control.right { right: 4% !important;}
+
+
+
+/* -------------------------------------------------------------About-Section Starts--------------------------------------------------------------------- */
+
+.about-content { background-size: cover; }
+.about-content h3 { font-size: 26px;}
+.about-content p { font-size: 18px;}
+.about-content a.view-more { font-size: 16px;}
+.portfolio-imgs { background-size: cover;}
+.port-main-img { margin-top: 20px;}
+.port-main-img a { width: 90%;}
+.hover-cont { width: 90%;}
+.port-dtails { margin: 0 auto; width: 90%;}
+.meet-team { background-size: cover; }
+.team-sectn .img-container { margin: 20px auto 0; width: 78%;}
+.footer-sectn { background-size: cover;}
+.footer-sectn .col-lg-4 { margin: 20px 0 0 ;}
+.f-map { clear: both; height: auto; overflow: hidden;}
+.footer-sectn .f-sect-head { margin: 0 0 10px;}
+.f-content-sect ul li p { margin-left: 10px; width: 88%; font-size: 14px;}
+.f-content-sect ul li p span { font-size: 12px;}
+.f-content-sect .inpt-box { width: 100%; margin: 10px 0 0 0;}
+.f-content-sect .txt-area { margin: 10px 0 ;}
+.copyright-sect p { text-align:center;}
+.copyright-sect .s-icons-footer { text-align: center;}
+.copyright-sect .s-icons-footer ul { text-align:center;}
+.f-content-sect ul li span { top: 1px;}
+
+/* -------------------------------------------------------------About-Section Ends--------------------------------------------------------------------- */
+
+
+}
+@media (max-width: 767px) {
+
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */	
+.logo img { margin: 0 auto;}
+.top-link {margin: 10px 0 0; text-align:center;}
+.top-header { padding: 10px 0; }
+.top-search { width:60%; margin:10px 0 0 0;}
+.navigation { margin:0 !important; padding:0 !important;}
+.navigation .nav { float:none; margin:0; text-align:center; content: inherit;}
+.navigation .nav li { margin: 5px 0 0 0;}
+.navigation .nav > li + li:before { content:none;}
+.navigation .nav li a { float:none;}
+
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------Slider Starts------------------------------------------------------------------------- */
+
+.carousel-caption { left:2%; top:25px; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:16px; padding: 0 5px; margin:2px 0 0;}
+.carousel-caption p.caption1 { margin:6px 0 0;}
+.carousel-caption h3 { margin: 3px 0; font-size:25px; text-shadow:none; padding: 0 10px;}
+.carousel-control.left,.carousel-control.right { display:none;}
+.btn-slider a { font-size: 13px; padding: 6px 10px;}
+.btn-slider { left:0; top:77%;}
+.carousel-indicators { bottom: auto; top: 92%;}
+.carousel-indicators li { height: 15px; width: 15px;}
+
+/* --------------------------------------------------------------Slider Ends------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------About-Section Starts--------------------------------------------------------------------- */
+
+.about-content { background-size: cover; padding:10px 0;}
+.about-content h3 { font-size: 24px;}
+.about-content p { font-size: 16px;}
+.about-content a.view-more { font-size: 16px;}
+.spcl-cont .box-1 { border-bottom: 1px solid #45c8af; padding: 15px 0;}
+.spcl-cont .col-lg-3:last-child .box-1 { border-bottom: none; padding: 15px 0 0;}
+.portfolio-imgs { background-size: cover;}
+.port-main-img { margin-top: 20px;}
+.port-main-img a { width: 90%;}
+.hover-cont { width: 90%;}
+.port-dtails { margin: 0 auto; width: 90%;}
+.meet-team { background-size: cover; height: 110px; padding: 28px 0;}
+.team-sectn .img-container { margin: 20px auto 0; width: 40%;}
+.footer-sectn { background-size: cover;}
+.footer-sectn .col-lg-4 { margin: 20px 0 0 ;}
+.f-map { clear: both; height: auto; overflow: hidden;}
+.footer-sectn .f-sect-head { margin: 0 0 10px;}
+.f-content-sect ul li p { margin-left: 10px; width: 90%; font-size: 14px;}
+.f-content-sect ul li p span { font-size: 13px;}
+.f-content-sect .inpt-box { width: 100%; margin: 10px 0 0 0;}
+.f-content-sect .txt-area { margin: 10px 0 ;}
+.copyright-sect p { text-align:center;}
+.copyright-sect .s-icons-footer { text-align: center;}
+.copyright-sect .s-icons-footer ul { text-align:center;}
+
+/* -------------------------------------------------------------About-Section Ends--------------------------------------------------------------------- */
+
+
+}
+
+
+@media (max-width: 640px) {
+
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */	
+.logo img { margin: 0 auto;}
+.top-link {margin: 10px 0 0; text-align:center;}
+.top-header { padding: 10px 0; }
+.top-search { width:60%; margin:10px 0 0 0;}
+.navigation { margin:0 !important; padding:0 !important;}
+.navigation .nav { float:none; margin:0; text-align:center; content: inherit;}
+.navigation .nav li { margin: 5px 0 0 0;}
+.navigation .nav > li + li:before { content:none;}
+.navigation .nav li a { float:none;}
+
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------Slider Starts------------------------------------------------------------------------- */
+
+.carousel-caption { left:2%; top:25px; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:16px; padding: 0 5px; margin:2px 0 0;}
+.carousel-caption p.caption1 { margin:6px 0 0;}
+.carousel-caption h3 { margin: 3px 0; font-size:25px; text-shadow:none; padding: 0 10px;}
+.carousel-control.left,.carousel-control.right { display:none;}
+.btn-slider a { font-size: 13px; padding: 6px 10px;}
+.btn-slider { left:0; top:77%;}
+.carousel-indicators { bottom: auto; top: 92%;}
+.carousel-indicators li { height: 15px; width: 15px;}
+
+/* --------------------------------------------------------------Slider Ends------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------About-Section Starts--------------------------------------------------------------------- */
+
+.about-content { background-size: cover; padding:10px 0;}
+.about-content h3 { font-size: 24px;}
+.about-content p { font-size: 16px;}
+.about-content a.view-more { font-size: 16px;}
+.spcl-cont .box-1 { border-bottom: 1px solid #45c8af; padding: 15px 0;}
+.spcl-cont .col-lg-3:last-child .box-1 { border-bottom: none; padding: 15px 0 0;}
+.portfolio-imgs { background-size: cover;}
+.port-main-img { margin-top: 20px;}
+.port-main-img a { width: 90%;}
+.hover-cont { width: 90%;}
+.port-dtails { margin: 0 auto; width: 90%;}
+.meet-team { background-size: cover; height: 110px; padding: 28px 0;}
+.team-sectn .img-container { margin: 20px auto 0; width: 40%;}
+.footer-sectn { background-size: cover;}
+.footer-sectn .col-lg-4 { margin: 20px 0 0 ;}
+.f-map { clear: both; height: auto; overflow: hidden;}
+.footer-sectn .f-sect-head { margin: 0 0 10px;}
+.f-content-sect ul li p { margin-left: 10px; width: 90%; font-size: 14px;}
+.f-content-sect ul li p span { font-size: 13px;}
+.f-content-sect .inpt-box { width: 100%; margin: 10px 0 0 0;}
+.f-content-sect .txt-area { margin: 10px 0 ;}
+.copyright-sect p { text-align:center;}
+.copyright-sect .s-icons-footer { text-align: center;}
+.copyright-sect .s-icons-footer ul { text-align:center;}
+
+/* -------------------------------------------------------------About-Section Ends--------------------------------------------------------------------- */
+
+
+}
+
+
+@media (max-width: 480px) {
+	
+
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+.logo img { margin: 0 auto;}
+.top-link {margin: 10px 0 0; text-align:center;}
+.navbar-toggle { margin: 0 15px 0 0 ; }
+.navigation { margin:0 !important; padding:0 !important;}
+.navigation .nav { float:none; margin:0; text-align:center; content: inherit;}
+.navigation .nav li { margin: 5px 0 0 0;}
+.navigation .nav > li + li:before { content:none;}
+.navigation .nav li a { float:none;}
+.navbar { min-height: 40px;}
+.mid-heading h1 { font-size: 24px;}
+#header-sticky-wrapper { height: 80px;}
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------Slider Starts------------------------------------------------------------------------- */
+
+.carousel-caption { left:2%; top: 15%; background:none; padding: 8px 0 0 0; }
+.carousel-caption p { font-size:14px; padding: 0 5px; margin:0; line-height: 17px;}
+.carousel-caption p.caption1 { margin:0;}
+.carousel-caption h3 { margin: 0 0 2px 0; font-size:18px; text-shadow:none; padding: 0 4px;}
+.carousel-control.left,.carousel-control.right { display:none;}
+.btn-slider a { font-size: 12px; padding: 2px 8px;}
+.btn-slider { left:0; top:77%;}
+.carousel-indicators { bottom: auto; top: 88%;}
+.carousel-indicators li { height: 15px; width: 15px;}
+
+/* --------------------------------------------------------------Slider Ends------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------About-Section Starts--------------------------------------------------------------------- */
+
+.about-content { background-size: cover; padding:10px 0;}
+.about-content h3 { font-size: 24px;}
+.about-content p { font-size: 16px;}
+.about-content a.view-more { font-size: 16px;}
+.spcl-cont .box-1 { border-bottom: 1px solid #45c8af; padding: 15px 0;}
+.spcl-cont .col-lg-3:last-child .box-1 { border-bottom: none; padding: 15px 0 0;}
+.portfolio-imgs { background-size: cover;}
+.img-container > img {  max-width: 100%;}
+.img-left > img, .img-ryt > img { max-width: 100%;}
+.port-main-img { margin-top: 20px;}
+.meet-team { background-size: cover; height: 110px; padding: 28px 0;}
+.team-sectn .img-container { margin: 20px auto 0; width: 60%;}
+.footer-sectn { background-size: cover;}
+.footer-sectn .col-lg-4 { margin: 20px 0 0 ;}
+.f-map { clear: both; height: auto; overflow: hidden;}
+.footer-sectn .f-sect-head { margin: 0 0 10px;}
+.f-content-sect ul li p { margin-left: 10px; width: 90%; font-size: 14px;}
+.f-content-sect ul li p span { font-size: 13px;}
+.f-content-sect .inpt-box { width: 100%; margin: 10px 0 0 0;}
+.f-content-sect .txt-area { margin: 10px 0 ;}
+.copyright-sect p { text-align:center;}
+.copyright-sect .s-icons-footer { text-align: center;}
+.copyright-sect .s-icons-footer ul { text-align:center;}
+
+.spcl-cont { padding: 10px 0;}
+
+/* -------------------------------------------------------------About-Section Ends--------------------------------------------------------------------- */
+
+ }
+
+@media (max-width: 360px) {
+
+
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+.logo img { margin: 0 auto;}
+.top-link {margin: 10px 0 0; text-align:center;}
+.navbar-toggle { margin: 0 15px 0 0 ; }
+.navigation { margin:0 !important; padding:0 !important;}
+.navigation .nav { float:none; margin:0; text-align:center; content: inherit;}
+.navigation .nav li { margin: 5px 0 0 0;}
+.navigation .nav > li + li:before { content:none;}
+.navigation .nav li a { float:none;}
+.navbar { min-height: 40px;}
+.mid-heading h1 { font-size: 24px;}
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------Slider Starts------------------------------------------------------------------------- */
+
+.carousel-caption { left:2%; top:0; background:none; padding: 8px 0 0 0; }
+.carousel-caption p { font-size:10px; padding: 0 5px; margin:0;}
+.carousel-caption p.caption1 { margin:0;}
+.carousel-caption h3 { margin: 0; font-size:14px; text-shadow:none; padding: 0 4px;}
+.carousel-control.left,.carousel-control.right { display:none;}
+.btn-slider a { font-size: 12px; padding: 2px 8px;}
+.btn-slider { left:0; top:77%;}
+.carousel-indicators { bottom: auto; top: 88%;}
+.carousel-indicators li { height: 15px; width: 15px;}
+
+/* --------------------------------------------------------------Slider Ends------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------About-Section Starts--------------------------------------------------------------------- */
+
+.about-content { background-size: cover; padding:10px 0;}
+.about-content h3 { font-size: 24px;}
+.about-content p { font-size: 16px;}
+.about-content a.view-more { font-size: 16px;}
+.spcl-cont .box-1 { border-bottom: 1px solid #45c8af; padding: 15px 0;}
+.spcl-cont .col-lg-3:last-child .box-1 { border-bottom: none; padding: 15px 0 0;}
+.portfolio-imgs { background-size: cover;}
+.img-container > img {  max-width: 100%;}
+.img-left > img, .img-ryt > img { max-width: 100%;}
+.port-main-img { margin-top: 20px;}
+.meet-team { background-size: cover; height: 110px; padding: 28px 0;}
+.team-sectn .img-container { margin: 20px auto 0; width: 75%;}
+.footer-sectn { background-size: cover;}
+.footer-sectn .col-lg-4 { margin: 20px 0 0 ;}
+.f-map { clear: both; height: auto; overflow: hidden;}
+.footer-sectn .f-sect-head { margin: 0 0 10px;}
+.f-content-sect ul li p { margin-left: 10px; width: 90%; font-size: 14px;}
+.f-content-sect ul li p span { font-size: 13px;}
+.f-content-sect .inpt-box { width: 100%; margin: 10px 0 0 0;}
+.f-content-sect .txt-area { margin: 10px 0 ;}
+.copyright-sect p { text-align:center;}
+.copyright-sect .s-icons-footer { text-align: center; padding-right: 30px;}
+.copyright-sect .s-icons-footer ul { text-align:center;}
+
+.spcl-cont { padding: 10px 0;}
+
+/* -------------------------------------------------------------About-Section Ends--------------------------------------------------------------------- */
+
+	
+}
+
+  @media (max-width: 320px) { 
+  
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+.logo img { margin: 0 auto;}
+.top-link {margin: 10px 0 0; text-align:center;}
+.navbar-toggle { margin: 0 15px 0 0 ; }
+.navigation { margin:0 !important; padding:0 !important;}
+.navigation .nav { float:none; margin:0; text-align:center; content: inherit;}
+.navigation .nav li { margin: 5px 0 0 0;}
+.navigation .nav > li + li:before { content:none;}
+.navigation .nav li a { float:none;}
+.navbar { min-height: 40px;}
+.mid-heading h1 { font-size: 24px;}
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------Slider Starts------------------------------------------------------------------------- */
+
+.carousel-caption { left:2%; top:0; background:none; padding: 8px 0 0 0; }
+.carousel-caption p { font-size:10px; padding: 0 5px; margin:0;}
+.carousel-caption p.caption1 { margin:0;}
+.carousel-caption h3 { margin: 0; font-size:14px; text-shadow:none; padding: 0 4px;}
+.carousel-control.left,.carousel-control.right { display:none;}
+.btn-slider a { font-size: 12px; padding: 2px 8px;}
+.btn-slider { left:0; top:77%;}
+.carousel-indicators { bottom: auto; top: 88%;}
+.carousel-indicators li { height: 15px; width: 15px;}
+
+/* --------------------------------------------------------------Slider Ends------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------About-Section Starts--------------------------------------------------------------------- */
+
+.about-content { background-size: cover; padding:10px 0;}
+.about-content h3 { font-size: 24px;}
+.about-content p { font-size: 16px;}
+.about-content a.view-more { font-size: 16px;}
+.spcl-cont .box-1 { border-bottom: 1px solid #45c8af; padding: 15px 0;}
+.spcl-cont .col-lg-3:last-child .box-1 { border-bottom: none; padding: 15px 0 0;}
+.portfolio-imgs { background-size: cover;}
+.img-container > img {  max-width: 100%;}
+.img-left > img, .img-ryt > img { max-width: 100%;}
+.port-main-img { margin-top: 20px;}
+.meet-team { background-size: cover; height: 110px; padding: 28px 0;}
+.team-sectn .img-container { margin: 20px auto 0; width: 90%;}
+.footer-sectn { background-size: cover;}
+.footer-sectn .col-lg-4 { margin: 20px 0 0 ;}
+.f-map { clear: both; height: auto; overflow: hidden;}
+.footer-sectn .f-sect-head { margin: 0 0 10px;}
+.f-content-sect ul li p { margin-left: 10px; width: 90%; font-size: 14px;}
+.f-content-sect ul li p span { font-size: 13px;}
+.f-content-sect .inpt-box { width: 100%; margin: 10px 0 0 0;}
+.f-content-sect .txt-area { margin: 10px 0 ;}
+.copyright-sect p { text-align:center;}
+.copyright-sect .s-icons-footer { text-align: center; padding-right: 40px;}
+.copyright-sect .s-icons-footer ul { text-align:center;}
+
+.spcl-cont { padding: 10px 0;}
+
+/* -------------------------------------------------------------About-Section Ends--------------------------------------------------------------------- */

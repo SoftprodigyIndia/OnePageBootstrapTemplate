@@ -1,0 +1,39 @@
+/* Fonts settings
+--------------------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../font/glyphicons-halflings-regular.eot');
+  src: url('../font/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../font/glyphicons-halflings-regular.woff') format('woff'), url('../font/glyphicons-halflings-regular.ttf') format('truetype'), url('../font/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+
+
+/* Webfont: Lato-Bold */
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../font/lato-reg.eot');
+    src: url('../font/lato-reg.eot?#iefix') format('embedded-opentype'),
+         url('../font/lato-reg.woff2') format('woff2'),
+         url('../font/lato-reg.woff') format('woff'),
+         url('../font/lato-reg.ttf') format('truetype'),
+         url('../font/lato-reg.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../font/lato-bol.eot');
+    src: url('../font/lato-bol.eot?#iefix') format('embedded-opentype'),
+         url('../font/lato-bol.woff2') format('woff2'),
+         url('../font/lato-bol.woff') format('woff'),
+         url('../font/lato-bol.ttf') format('truetype'),
+         url('../font/lato-bol.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
